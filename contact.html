@@ -19,26 +19,27 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header>    
 
-    <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Sit, Relax and Repeat</p>
-        <a href="menu.html" class="cta-button">Explore Menu</a>
-    </section>
-
-    <section class="featured-products">
-        <h2>Featured Products</h2>
-        <div class="products">
-            <div class="product">
-                <img class="expresso" src="https://bartscoffee.com/cdn/shop/articles/barts-classic-latte-coffee-recipe_1024x.jpg?v=1695579275" alt="Coffee Blend">
-                <p>Classic Espresso</p>
-                <p></p>
-            </div>
-            <div class="product">
-                <img class="croissant" src="https://sarahsvegankitchen.b-cdn.net/wp-content/uploads/2024/05/Vegan-Croissants-1.jpg" alt="Pastry">
-                <p>Fresh Croissant </p>
-            </div>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us...</p>
+        <div class="contact-details">
+            <p>Address: 123 Coffee Lane, Brewtown</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@cozycuphhouse.com</p>
+        </div>
+        <div class="contact-container" >
+            <form class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Name" class="contact-input">
+                <input type="email" id="email" name="email" placeholder="Email" class="contact-input">
+                <textarea id="message" name="message" placeholder="Your message" class="contact-input"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="map">
+            <!-- Embed Google Map Here -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434507351!2d144.96487341581786!3d-37.81562007975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce730!2s123%20Coffee%20Lane%2C%20Brewtown%2C%20Australia!5e0!3m2!1sen!2sus!4v1596477471535!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
 
@@ -59,14 +60,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <!-- Newsletter Sign-Up Form -->
-        <form class="newsletter-signup" action="/subscribe" method="POST">
-            <label for="signup-email">Sign up for our newsletter:</label>
-            <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
-        </form>
         <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
